@@ -37,7 +37,7 @@ const Login = () => {
       login(response.data.token);
 
       // Navigate to home page
-      navigate('/home');
+      navigate('/biodata');
     } catch (error) {
       console.error('There was an error logging in!', error);
       if (error.response) {

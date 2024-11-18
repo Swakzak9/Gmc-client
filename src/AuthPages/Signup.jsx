@@ -8,7 +8,6 @@ const Signup = () => {
     last_name: '',
     email: '',
     password: '',
-    confirm_password: '',
   });
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -23,12 +22,7 @@ const Signup = () => {
   };
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    if (formData.password !== formData.confirm_password) {
-      setError("Passwords do not match!");
-      return;
-    }
-
+    e.preventDefault()
     setLoading(true);
     setError(null);
     
@@ -117,20 +111,6 @@ const Signup = () => {
                     name="password"
                     className="mt-1 h-8 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm pl-2"
                     value={formData.password}
-                    onChange={handleChange}
-                  />
-                </div>
-
-                <div className="col-span-6 sm:col-span-3">
-                  <label htmlFor="PasswordConfirmation" className="block text-sm font-medium text-gray-700">
-                    Confirm Password
-                  </label>
-                  <input
-                    type="password"
-                    id="PasswordConfirmation"
-                    name="confirm_password"
-                    className="mt-1 h-8 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm pl-2"
-                    value={formData.confirm_password}
                     onChange={handleChange}
                   />
                 </div>

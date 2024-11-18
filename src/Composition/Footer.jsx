@@ -56,11 +56,11 @@ const Footer = () => {
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> 1on1 Coaching </a>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> Graduate programs inquiries </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Company Review </a>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> School Reviews </a>
             </li>
 
             <li>
@@ -68,17 +68,17 @@ const Footer = () => {
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> HR Consulting </a>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> </a>Career counselling
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> SEO Optimisation </a>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> Scholarships and Awards </a>
             </li>
           </ul>
         </div>
 
         <div className="col-span-2 sm:col-span-1">
-          <p className="font-medium text-gray-900">Company</p>
+          <p className="font-medium text-gray-900">School Details</p>
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
@@ -86,11 +86,11 @@ const Footer = () => {
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Meet the Team </a>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> Meet the Vice Chancelor </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Accounts Review </a>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> Profile inquiries</a>
             </li>
           </ul>
         </div>
@@ -118,33 +118,33 @@ const Footer = () => {
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Accessibility </a>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> Credibilty and Standings </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Returns Policy </a>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> School Policy </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Refund Policy </a>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> Fees refund Policy </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Hiring Statistics </a>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> Interested in working for us?</a>
             </li>
           </ul>
         </div>
 
         <div className="col-span-2 sm:col-span-1">
-          <p className="font-medium text-gray-900">Downloads</p>
+          <p className="font-medium text-gray-900">Language Requirements</p>
 
           <ul className="mt-6 space-y-4 text-sm">
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> Marketing Calendar </a>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> School Calendar </a>
             </li>
 
             <li>
-              <a href="#" className="text-gray-700 transition hover:opacity-75"> SEO Infographics </a>
+              <a href="#" className="text-gray-700 transition hover:opacity-75"> Chat with Alumni  </a>
             </li>
           </ul>
         </div>
